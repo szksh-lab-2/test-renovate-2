@@ -1,4 +1,5 @@
 ---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/aquaproj/aqua/v2.44.1/json-schema/aqua-yaml.json
 # aqua - Declarative CLI Version Manager
 # https://aquaproj.github.io/
 # checksum:
@@ -7,7 +8,11 @@
 #   supported_envs:
 #   - all
 registries:
-- type: standard
-  ref: v4.48.0 # renovate: depName=aquaproj/aqua-registry
+  - type: standard
+    ref: v4.374.0 # renovate: depName=aquaproj/aqua-registry
 packages:
-- name: jqlang/jq@jq-1.6
+  - name: wasmCloud/wasmCloud/wash@wash-v0.41.0
+  - name: suzuki-shunsuke/pinact@v2.0.0
+  - name: bitwarden/clients@cli-v2025.4.0
+  - name: mongodb/mongodb-atlas-cli/atlascli@atlascli/v1.42.2
+  - import: aqua/wash.yaml

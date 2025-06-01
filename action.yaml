@@ -1,8 +1,0 @@
-name: test
-description: test
-runs:
-  using: composite
-  steps:
-    - uses: aquaproj/aqua-installer@v2.1.2
-      with:
-        aqua_version: v2.0.0

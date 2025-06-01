@@ -1,8 +1,9 @@
 {
-  extends: [
-    "helpers:pinGitHubActionDigestsToSemver"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    'github>suzuki-shunsuke/renovate-config:nolimit#3.1.0',
+    'github>suzuki-shunsuke/renovate-config#3.1.0',
+    'github>aquaproj/aqua-renovate-config#fix-file-pattern',
+    'github>aquaproj/aqua-renovate-config:file#fix-file-pattern(/aqua/.*\\.ya?ml/)',
   ],
-  "branchConcurrentLimit": 0,
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
 }

@@ -2,24 +2,7 @@
   "extends": [
     'github>suzuki-shunsuke/renovate-config:nolimit#3.1.0',
     'github>suzuki-shunsuke/renovate-config#3.1.0',
+    'github>aquaproj/aqua-renovate-config#2.9.0',
+    "github>aquaproj/aqua-renovate-config:file#2.9.0(aqua/.*\\.ya?ml)",
   ],
-  "customManagers": [
-      {
-         "customType": "regex",
-         "datasourceTemplate": "github-releases",
-         "depNameTemplate": "openai/codex",
-         "extractVersionTemplate": "^rust-(?<version>.*)$",
-         "managerFilePatterns": [
-            "/\\.?aqua\\.ya?ml$/"
-         ],
-         "matchStrings": [
-            " +(?:version|'version'|\"version\") *: +rust-(?<currentValue>[^'\" \\n]+) +# renovate: depName=openai/codex[ \\n]",
-            " +(?:version|'version'|\"version\") *: +'rust-(?<currentValue>[^'\" \\n]+)' +# renovate: depName=openai/codex[ \\n]",
-            " +(?:version|'version'|\"version\") *: +\"rust-(?<currentValue>[^'\" \\n]+)\" +# renovate: depName=openai/codex[ \\n]",
-            " +(?:name|'name'|\"name\") *: +openai/codex@rust-(?<currentValue>[^'\" \\n]+)",
-            " +(?:name|'name'|\"name\") *: +'openai/codex@rust-(?<currentValue>[^'\" \\n]+)'",
-            " +(?:name|'name'|\"name\") *: +\"openai/codex@rust-(?<currentValue>[^'\" \\n]+)\""
-         ]
-      },
-  ]
 }

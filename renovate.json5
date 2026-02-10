@@ -8,6 +8,6 @@
   prBodyNotes: [
     // https://docs.renovatebot.com/configuration-options/#prbodynotes
     // https://docs.renovatebot.com/templates/
-    '<!-- metadata {"categories": {{stringToPrettyJSON categories}}} -->',
+    '<!-- metadata {"categories": {{toJSON categories}}} -->',
   ],
 }

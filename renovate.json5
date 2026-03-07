@@ -1,9 +1,8 @@
 {
   "extends": [
-    "config:best-practices",
+    'github>suzuki-shunsuke/renovate-config#3.1.0',
     'github>suzuki-shunsuke/renovate-config:nolimit#3.1.0',
     'github>aquaproj/aqua-renovate-config#2.9.0',
     "github>aquaproj/aqua-renovate-config:file#2.9.0(aqua/.*\\.ya?ml)",
   ],
-  "prHeader": "<!-- metadata {{{ toJSON categories=categories currentValue=currentValue currentVersion=currentVersion currentVersionAgeInDays=currentVersionAgeInDays currentVersionTimestamp=currentVersionTimestamp currentDigest=currentDigest currentDigestShort=currentDigestShort datasource=datasource depName=depName depNameLinked=depNameLinked depNameSanitized=depNameSanitized depType=depType depTypes=depTypes displayFrom=displayFrom displayPending=displayPending displayTo=displayTo hasReleaseNotes=hasReleaseNotes indentation=indentation isGroup=isGroup isLockfileUpdate=isLockfileUpdate isMajor=isMajor isMinor=isMinor isPatch=isPatch isPin=isPin isPinDigest=isPinDigest isRollback=isRollback isReplacement=isReplacement isRange=isRange isSingleVersion=isSingleVersion isVulnerabilityAlert=isVulnerabilityAlert logJSON=logJSON manager=manager newDigest=newDigest newDigestShort=newDigestShort newMajor=newMajor newMinor=newMinor newPatch=newPatch newName=newName newNameLinked=newNameLinked newValue=newValue newVersion=newVersion newVersionAgeInDays=newVersionAgeInDays major=major minor=minor patch=patch packageFile=packageFile packageFileDir=packageFileDir packageName=packageName packageScope=packageScope parentDir=parentDir parentOrg=parentOrg platform=platform prettyDepType=prettyDepType prettyNewMajor=prettyNewMajor prettyNewVersion=prettyNewVersion project=project recreateClosed=recreateClosed references=references releases=releases releaseNotes=releaseNotes releaseTimestamp=releaseTimestamp repository=repository semanticPrefix=semanticPrefix sourceRepo=sourceRepo sourceRepoName=sourceRepoName sourceRepoOrg=sourceRepoOrg sourceRepoSlug=sourceRepoSlug sourceUrl=sourceUrl topLevelOrg=topLevelOrg updateType=updateType upgrades=upgrades url=url version=version versioning=versioning versions=versions vulnerabilitySeverity=vulnerabilitySeverity }}} -->"
 }

@@ -11,4 +11,4 @@ registries:
   - type: standard
     ref: v4.411.1 # renovate: depName=aquaproj/aqua-registry
 packages:
-  - name: apache/ant@rel/1.10.13
+  - name: wasmCloud/wasmCloud/wash@wash-v0.43.0

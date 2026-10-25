@@ -1,4 +1,4 @@
-FROM mirror.gcr.io/golang:1.26.2-trixie
+FROM mirror.gcr.io/golang:1.27.3-trixie@sha256:fbb7ae40b62ff8afe31662df570d39b4f5052ac32b90dae8e60d7657a20a74f4
 WORKDIR /workspace
 ENV AQUA_LOG_COLOR=always
 ENV AQUA_POLICY_CONFIG=/workspace/aqua-policy.yaml

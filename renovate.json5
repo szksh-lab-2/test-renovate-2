@@ -1,7 +1,8 @@
 {
   "extends": [
-    'github>suzuki-shunsuke/renovate-config#3.1.0',
-    'github>suzuki-shunsuke/renovate-config:nolimit#3.1.0',
-    'github>aquaproj/aqua-renovate-config',
+    "github>suzuki-shunsuke/renovate-config#4.0.0",
+    "github>suzuki-shunsuke/renovate-config:nolimit#4.0.0",
+    "github>aquaproj/aqua-renovate-config#2.14.0",
+    "github>aquaproj/aqua-renovate-config:installer-script#2.14.0(Dockerfile)",
   ],
 }

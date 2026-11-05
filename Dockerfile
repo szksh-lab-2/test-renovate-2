@@ -12,6 +12,6 @@ RUN \
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable --profile minimal
 RUN curl -sSfL -O https://raw.githubusercontent.com/aquaproj/aqua-installer/82d0e83878a8657c4a6f2ff1755d3bfbfc67f329/aqua-installer # v4.1.0
 RUN chmod +x aqua-installer
-RUN ./aqua-installer -v v2.65.2
+RUN ./aqua-installer -v v2.66.1
 COPY aqua-test.yaml aqua.yaml
 COPY aqua-policy.yaml aqua-policy.yaml

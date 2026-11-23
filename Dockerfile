@@ -10,7 +10,7 @@ RUN \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable --profile minimal
-RUN curl -sSfL -O https://raw.githubusercontent.com/aquaproj/aqua-installer/82d0e83878a8657c4a6f2ff1755d3bfbfc67f329/aqua-installer # v4.1.0
+RUN curl -sSfL -O https://raw.githubusercontent.com/aquaproj/aqua-installer/b8be739961814ee66b9e0d505f4d5de0d2eff047/aqua-installer # v4.1.2
 RUN chmod +x aqua-installer
 RUN ./aqua-installer -v v2.65.2
 COPY aqua-test.yaml aqua.yaml
